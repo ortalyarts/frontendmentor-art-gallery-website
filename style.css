@@ -554,6 +554,15 @@ footer .bodyM p {
   display:grid;
   gap:2rem;
 }
+.bg-orange .bodyM p{
+  color: var(--color2);
+}
+.bg-orange .social-links a svg {
+  fill: var(--color2);
+}
+.bg-orange .social-links a:hover svg, .bg-orange .social-links a:focus svg {
+  fill: white;
+}
 @media screen and (min-width:40rem){
   .location-text {
     display:grid;
